@@ -35,5 +35,10 @@ app-root {
     box-shadow: rgba(0, 0, 0, 0.8) 1px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px;
 }
 
+.App {
+  height: auto;
+  width: auto;
+}
+
 /* Hovering buttons look (Quizlet) */
 /* box-shadow: 0 0.3125rem 1rem 0 rgba(0,0,0,0.24); */
