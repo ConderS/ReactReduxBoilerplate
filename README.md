@@ -6,7 +6,7 @@ My custom react redux boilerplate. Running this makefile will always create a re
 2. Run the makefile with: `make APP_NAME=<app_name>`
 3. Add the remote origin point for your current repository: `git remote add origin <git_repo_url>`
 
-Running the makefile will:
+When the makefile is run, it will:
 1. Initialize the app according to the official React docs,
 2. Move the contents of the created app folder into the current folder,
 3. Delete the created app folder,
