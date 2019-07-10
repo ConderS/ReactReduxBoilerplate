@@ -2,7 +2,7 @@
 My custom react redux boilerplate. Running this makefile will always create a react app that is both __structured__ according to the boilerplate and that is __up to date with the latest dependencies__. 
 
 ### Instructions from the Makefile
-1. Git clone this repository: git@github.com:ConderS/ReactReduxBoilerplate.git
+1. Git clone this repository: `git@github.com:ConderS/ReactReduxBoilerplate.git`
 2. Run the makefile with: `make APP_NAME=<app_name>`
 
 This will:
