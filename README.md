@@ -4,6 +4,7 @@ My custom react redux boilerplate. Running this makefile will always create a re
 ### Instructions from the Makefile
 1. Git clone this repository: `git@github.com:ConderS/ReactReduxBoilerplate.git`
 2. Run the makefile with: `make APP_NAME=<app_name>`
+3. Add the remote origin point for your current repository: `git remote add origin <git_repo_url>`
 
 This will:
 1. Initialize the app according to the official React docs,
