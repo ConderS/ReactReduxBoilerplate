@@ -1,9 +1,23 @@
-# ReactReduxBoilerplate
-My custom react redux boilerplate
+# Dynamically Updated ReactReduxBoilerplate
+My custom react redux boilerplate. Running this makefile will always create a react app that is both *structured* according to the boilerplate and that is *up to date with the latest dependencies*. 
 
-- Check that the initilal step for initializing the app is the same in the [official React documentation](https://facebook.github.io/create-react-app/docs/getting-started)
-- Inside the root folder, use `yarn create react-app <app_name_in_lowercase>` to initialize the app folder
-- Use `mv <app_folder_name>/* .` to move folder contents up one level
-- Delete with  `rm -rf <app_folder_name>`
-- Replace `src` with the folder provided here
-- Run `make` to install additional dependencies through the Makefile
+### Instructions from the Makefile
+ 0a. Git clone this repository:
+			git@github.com:ConderS/ReactReduxBoilerplate.git
+ 0b. Run the makefile with:
+			`make APP_NAME=<app_name>`
+
+ This will:
+   1. Initialize the app according to the official React docs,
+		2. Move the contents of the created app folder into the current folder,
+		3. Delete the created app folder,
+		4. Add and install dependencies needed for our boilerplate (`yarn add` takes care of both)
+		5. Delete the pre-installed `src` folder from the initial `create` command
+		6. Rename `starterSrc` (containing the boilerplate structure) to `src`
+		7. Renames this root folder from `ReactReduxBoilerplate` to the specified `APP_NAME`
+		8. Removes remote origin point pointing to the boilerplate git repository
+
+	You are now all set. Run `yarn start` at root to start the app.
+
+ Make sure to check on the official React documentation now and then to confirm
+		that the app initialization command has remained the same
