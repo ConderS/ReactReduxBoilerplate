@@ -1,0 +1,14 @@
+.DS_STORE
+**/node_modules/
+**/.expo
+npm-debug/
+*.jks
+*.p12
+*.key
+*.mobileprovision
+**/package-lock.json
+**/config.js
+
+**/.env
+yarn-error.log
+yarn.lock
