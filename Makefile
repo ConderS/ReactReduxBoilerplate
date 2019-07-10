@@ -1,7 +1,12 @@
-# 0a. Git clone this repository:
-#				git@github.com:ConderS/ReactReduxBoilerplate.git
-# 0b. Run the makefile with:
-#			 `make APP_NAME=<app_name>`
+# a. Git clone this repository:
+#			git@github.com:ConderS/ReactReduxBoilerplate.git
+
+# NOTE: Ensure that `app_name` is ALL LOWERCASE
+# b. Run the makefile with:
+#			`make APP_NAME=<app_name>`
+
+# c. Add the remote origin point for your current repository:
+#			`git remote add origin <git_repo_url>`
 
 # This will:
 #   1. Initialize the app according to the official React docs,
