@@ -11,6 +11,7 @@
 #		5. Delete the pre-installed `src` folder from the initial `create` command
 #		6. Rename `starterSrc` (containing the boilerplate structure) to `src`
 #		7. Renames this root folder from `ReactReduxBoilerplate` to the specified `APP_NAME`
+#		8. Removes remote origin point pointing to the boilerplate git repository
 
 #	You are now all set. Run `yarn start` at root to start the app.
 
@@ -36,3 +37,4 @@ new:
 					rm -rf src
 					mv $(BOILERPLATE_SRC_NAME) src
 					mv ../$(BOILERPLATE_REPO_NAME) ../$(APP_NAME)
+					git remote rm origin
