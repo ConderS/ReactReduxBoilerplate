@@ -1,5 +1,5 @@
 # Dynamically Updated ReactReduxBoilerplate
-My custom react redux boilerplate. Running this makefile will always create a react app that is both *structured* according to the boilerplate and that is *up to date with the latest dependencies*. 
+My custom react redux boilerplate. Running this makefile will always create a react app that is both __structured__ according to the boilerplate and that is __up to date with the latest dependencies__. 
 
 ### Instructions from the Makefile
  0a. Git clone this repository:
