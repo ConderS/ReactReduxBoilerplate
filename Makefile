@@ -17,6 +17,7 @@
 #		6. Rename `starterSrc` (containing the boilerplate structure) to `src`
 #		7. Renames this root folder from `ReactReduxBoilerplate` to the specified `APP_NAME`
 #		8. Removes remote origin point pointing to the boilerplate git repository
+# 	9. Removes this Makefile
 
 #	You are now all set. Run `yarn start` at root to start the app.
 
@@ -33,13 +34,14 @@ new:
 					mv $(APP_NAME)/* .
 					rm -rf $(APP_NAME)
 					yarn add \
-						node-fetch \
 						react-redux \
 						react-router-dom \
 						redux \
 						redux-thunk \
-						whatwg-fetch
+						axios
+					yarn add -dev babel-plugin-module-resolver
 					rm -rf src
 					mv $(BOILERPLATE_SRC_NAME) src
 					mv ../$(BOILERPLATE_REPO_NAME) ../$(APP_NAME)
 					git remote rm origin
+					rm Makefile
