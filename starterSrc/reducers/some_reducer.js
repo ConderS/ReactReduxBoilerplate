@@ -6,7 +6,7 @@ const initialState = {
     //__DEFINE INITIAL STATE
 }
 
-export default function(state = initalState, action) {
+export default function(state = initialState, action) {
     switch (action.type) {
         // case FETCH_CUBES:
         //     return Object.assign({}, state, {
